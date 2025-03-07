@@ -1,8 +1,8 @@
-package dev.teaguild.thoughtsntea.listeners
+package io.github.commandertvis.teatastingsbot.listeners
 
 import dev.inmo.kslog.common.TagLogger
 import dev.inmo.kslog.common.i
-import dev.teaguild.thoughtsntea.TeaTastingSession
+import io.github.commandertvis.teatastingsbot.TeaTastingSession
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

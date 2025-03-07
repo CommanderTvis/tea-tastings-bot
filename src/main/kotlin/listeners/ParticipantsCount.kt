@@ -1,8 +1,8 @@
-package dev.teaguild.thoughtsntea.listeners
+package io.github.commandertvis.teatastingsbot.listeners
 
 import dev.inmo.tgbotapi.extensions.api.send.send
-import dev.teaguild.thoughtsntea.TastingState
-import dev.teaguild.thoughtsntea.TeaTastingSession
+import io.github.commandertvis.teatastingsbot.TastingState
+import io.github.commandertvis.teatastingsbot.TeaTastingSession
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach

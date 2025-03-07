@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gradle-dist
-          path: build/install/thoughtsntea-bot
+          path: build/install/tea-tastings-bot
 
       # Docker steps that only run on master branch
       - name: 'Get version from VERSION file'
@@ -50,8 +50,8 @@ jobs:
       - name: 'Build Inventory Image'
         if: github.ref == 'refs/heads/master'
         run: |
-          docker build . --tag ghcr.io/thoughtsandtea/telegram-bot:${{ steps.get-version.outputs.VERSION }}
-          docker push ghcr.io/thoughtsandtea/telegram-bot:${{ steps.get-version.outputs.VERSION }}
+          docker build . --tag ghcr.io/CommanderTvis/tea-tastings-bot:${{ steps.get-version.outputs.VERSION }}
+          docker push ghcr.io/CommanderTvis/tea-tastings-bot:${{ steps.get-version.outputs.VERSION }}
       - name: 'Make package public'
         if: github.ref == 'refs/heads/master'
         run: |
@@ -60,5 +60,5 @@ jobs:
             -H "Accept: application/vnd.github.v3+json" \
             -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             -H "Content-Type: application/json" \
-            https://api.github.com/orgs/thoughtsandtea/packages/container/telegram-bot/visibility \
+            https://api.github.com/orgs/CommanderTvis/packages/container/tea-tastings-bot/visibility \
             -d '{"visibility":"public"}'

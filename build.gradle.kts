@@ -27,4 +27,4 @@ kotlin {
     }
 }
 
-application.mainClass = "dev.teaguild.thoughtsntea.MainKt"
+application.mainClass = "io.github.commandertvis.teatastingsbot.MainKt"

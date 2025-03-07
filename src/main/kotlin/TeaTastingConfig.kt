@@ -1,7 +1,7 @@
-package dev.teaguild.thoughtsntea
+package io.github.commandertvis.teatastingsbot
 
-import dev.teaguild.thoughtsntea.utils.emptyEnumSet
-import dev.teaguild.thoughtsntea.utils.enumSetOf
+import io.github.commandertvis.teatastingsbot.utils.emptyEnumSet
+import io.github.commandertvis.teatastingsbot.utils.enumSetOf
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.SerializationException
@@ -20,7 +20,7 @@ import kotlin.io.path.exists
 import kotlin.io.path.readText
 import kotlin.io.path.writeText
 
-private val configFile = Path("thoughtsntea.json")
+private val configFile = Path("tea-tastings-bot.json")
 
 
 @Serializable

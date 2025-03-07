@@ -1,14 +1,14 @@
-package dev.teaguild.thoughtsntea.listeners
+package io.github.commandertvis.teatastingsbot.listeners
 
 import dev.inmo.kslog.common.TagLogger
 import dev.inmo.kslog.common.i
 import dev.inmo.tgbotapi.extensions.api.send.send
 import dev.inmo.tgbotapi.types.chat.User
 import dev.starry.ktscheduler.scheduler.KtScheduler
-import dev.teaguild.thoughtsntea.TastingState
-import dev.teaguild.thoughtsntea.TeaTastingSession
-import dev.teaguild.thoughtsntea.utils.runWeekly
-import dev.teaguild.thoughtsntea.utils.sendHtml
+import io.github.commandertvis.teatastingsbot.TastingState
+import io.github.commandertvis.teatastingsbot.TeaTastingSession
+import io.github.commandertvis.teatastingsbot.utils.runWeekly
+import io.github.commandertvis.teatastingsbot.utils.sendHtml
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.map

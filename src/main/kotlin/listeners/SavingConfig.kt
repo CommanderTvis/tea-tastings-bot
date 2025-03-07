@@ -1,7 +1,7 @@
-package dev.teaguild.thoughtsntea.listeners
+package io.github.commandertvis.teatastingsbot.listeners
 
-import dev.teaguild.thoughtsntea.TeaTastingSession
-import dev.teaguild.thoughtsntea.saveConfig
+import io.github.commandertvis.teatastingsbot.TeaTastingSession
+import io.github.commandertvis.teatastingsbot.saveConfig
 import kotlinx.coroutines.CoroutineName
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.launchIn

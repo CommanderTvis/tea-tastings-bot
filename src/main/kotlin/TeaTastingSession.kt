@@ -1,4 +1,4 @@
-package dev.teaguild.thoughtsntea
+package io.github.commandertvis.teatastingsbot
 
 import dev.inmo.tgbotapi.bot.TelegramBot
 import dev.inmo.tgbotapi.types.ChatId
