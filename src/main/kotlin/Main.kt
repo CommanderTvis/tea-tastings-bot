@@ -101,7 +101,7 @@ fun main() = runBlocking {
             replyHtml(
                 message,
                 """
-        👋 Welcome to Thoughts & Tea Bot!
+        👋 Welcome to Tea Tastings Bot!
 
         This bot helps organize regular tea tasting sessions in your group. Here's how it works:
 
